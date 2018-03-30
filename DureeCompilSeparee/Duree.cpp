@@ -1,7 +1,9 @@
 #include <iostream>
 #include <iomanip>
-#include "duree.h"
+#include "Duree.h"
 
+using namespace nsUtil;
+using namespace std;
 
 unsigned long long Duree::getDuree() const noexcept
 {
